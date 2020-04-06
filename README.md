@@ -1,18 +1,55 @@
 # Lab-07-APIs
 
-Number and name of feature: ________________________________
+Number and name of feature:  Data formatting
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 2 hours
 
-Start time: _____
+Start time: 4
 
-Finish time: _____
+Finish time: 5
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1hour
+
+
+
+Number and name of feature:  Locations
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 6
+
+Finish time: 7
+
+Actual time needed to complete: 1hour
+
+
+
+Number and name of feature:  Weather
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 8
+
+Finish time: 10
+
+Actual time needed to complete: 2 hour
+
+
+
+Number and name of feature:  Trails
+
+Estimate of time needed to complete: 4 hours
+
+Start time: 10
+
+Finish time: 1
+
+Actual time needed to complete: 3 hour
+
 
 # Project Name
 
-**Author**: Your Name Goes Here
+**Author**:Ahmad Mamdouh 
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
