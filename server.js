@@ -61,19 +61,18 @@ function weatherHand(request, response) {
 
 function Weather(day) {
     // this.search_query = weather;
-    this.forcast = day.weather.description;
-    let s = (new Date(day.valid_date)).toDateString();
-    this.time = s;
+    this.forecast = day.weather.description;
+    this.time = new Date(day.valid_date).toDateString();
 }
 
 function trialhand(request, response) {
-    // const lan = reqest.query.lat;
-    const lan = 39.9787;
-    const long =-105.2755 ;
-    // const long = reqest.query.lon;
-     console.log(lan);
-    console.log(long);
-    superagent(`https://www.hikingproject.com/data/get-trails?lat=${lan}&lon=${long}&maxDistance=10&key=${process.env.TRAILS_API_KEY}`)
+    // request.query.latitude;
+    // const lan = 39.9787;
+    // const long =-105.2755 ;
+    // const long = request.query.longitude;
+    //  console.log(lan);
+    // console.log(long);
+    superagent(`https://www.hikingproject.com/data/get-trails?lat=${request.query.latitude}&lon=${request.query.longitude}&maxDistance=1000&key=${process.env.TRAILS_API_KEY}`)
         .then((trailData) => {
             console.log(trailData);
 
@@ -89,8 +88,8 @@ function Trails(trail) {
     this.name = trail.name;
     this.summary = trail.summary;
     this.location = trail.location;
-    this.lon = trail.longitude;
-    this.lat = trail.latitude;
+    // this.lon = trail.longitude;
+    // this.lat = trail.latitude;
 
 }
 
